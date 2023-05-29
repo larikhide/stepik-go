@@ -14,3 +14,9 @@ I welcome your comments and suggestions for improving these solutions, particula
 [3.7.4](https://github.com/larikhide/stepik-go/blob/main/3-7-time/3-7-4-time.go) Accept a date, parse it, and modify it if necessary. Read from StdIn using bufio.NewReader() when you need precise control over the buffer size and reading a specific amount of data at a time.  
 [3.7.7](https://github.com/larikhide/stepik-go/blob/main/3-7-time/3-7-7-time.go) Accept a string of dates with a specific delimiter, convert it into an array, and calculate the difference between dates. Read from StdIn using bufio.NewScanner when you need to scan data line by line or based on a specific delimiter.  
 [3.7.8](https://github.com/larikhide/stepik-go/blob/main/3-7-time/3-7-8-time.go) Accept duration in a free format and a date in Unix format. Add the duration to the date and output the new date in Unix format.  
+
+[3.8.8]()  
+
+[3.8.9]()  
+
+[3.8.10]() There are 2 channels. We receive strings in one channel and send the string to the other channel only if it is different from the previous one.
