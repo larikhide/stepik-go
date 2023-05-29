@@ -1,4 +1,4 @@
-[ENG]()  
+[ENG](https://github.com/larikhide/stepik-go/blob/main/3-8-parallelism/README-ENG.md)  
 
 # 3-8-8  
 

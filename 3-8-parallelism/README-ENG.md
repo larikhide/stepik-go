@@ -1,4 +1,4 @@
-[RUS]()
+[RUS](https://github.com/larikhide/stepik-go/blob/main/3-8-parallelism/README.md)
 
 # 3-8-8  
 
