@@ -19,4 +19,6 @@ I welcome your comments and suggestions for improving these solutions, particula
 
 [3.8.9](https://github.com/larikhide/stepik-go/blob/main/3-8-parallelism/3-8-9-parallelism.go) Receive a string in a channel and send it five times to the same channel with a space added each time.     
 
-[3.8.10](https://github.com/larikhide/stepik-go/blob/main/3-8-parallelism/3-8-9-parallelism.go) There are 2 channels. We receive strings in one channel and send the string to the other channel only if it is different from the previous one.
+[3.8.10](https://github.com/larikhide/stepik-go/blob/main/3-8-parallelism/3-8-9-parallelism.go) There are 2 channels. We receive strings in one channel and send the string to the other channel only if it is different from the previous one.  
+
+[3.9.3]() Call the main function within a goroutine and wait for the completion of its execution.
