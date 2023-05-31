@@ -2,7 +2,10 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	done := make(chan struct{})
@@ -15,5 +18,8 @@ func main() {
 
 func work() {
 	fmt.Println("Shark: do something")
-	fmt.Println("Mouse: i'm...i did")
+	time.Sleep(2 * time.Second)
+	fmt.Println("Mouse: i'm...")
+	time.Sleep(2 * time.Second)
+	fmt.Println("Mouse: i did")
 }
