@@ -19,4 +19,6 @@
 
 [3.8.10](https://github.com/larikhide/stepik-go/blob/main/3-8-parallelism/3-8-9-parallelism.go) есть 2 канала. принимаем строки в один, отправляем эту строку в другой, если она не совпадает с предыдущей  
 
-[3.9.3](https://github.com/larikhide/stepik-go/blob/main/3-9-parallelism/3-9-3-parallelism.go) вызвать внутри main функцию в горутине и дождаться результатов ее выполнения
+[3.9.3](https://github.com/larikhide/stepik-go/blob/main/3-9-parallelism/3-9-3-parallelism.go) Синхронизация горутин с помощью каналов. вызвать внутри main функцию в горутине и дождаться результатов ее выполнения  
+
+[3.9.5]() Синхронизация горутин с помощью sync.WaitGroup. вызвать внутри main функцию в горутине 10 раз и дождаться результатов выполнения всех горутин
