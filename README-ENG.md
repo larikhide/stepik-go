@@ -21,4 +21,6 @@ I welcome your comments and suggestions for improving these solutions, particula
 
 [3.8.10](https://github.com/larikhide/stepik-go/blob/main/3-8-parallelism/3-8-9-parallelism.go) There are 2 channels. We receive strings in one channel and send the string to the other channel only if it is different from the previous one.  
 
-[3.9.3](https://github.com/larikhide/stepik-go/blob/main/3-9-parallelism/3-9-3-parallelism.go) Call the main function within a goroutine and wait for the completion of its execution.
+[3.9.3](https://github.com/larikhide/stepik-go/blob/main/3-9-parallelism/3-9-3-parallelism.go) Synchronizing goroutines using channels. Call the main function within a goroutine and wait for the completion of its execution.  
+
+[3.9.5]() Synchronizing Goroutines with sync.WaitGroup. Call the main function inside a Goroutine 10 times and wait for the completion of all Goroutines' execution.  
