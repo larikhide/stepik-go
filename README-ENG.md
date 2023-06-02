@@ -25,6 +25,6 @@ I welcome your comments and suggestions for improving these solutions, particula
 
 [3.9.5](https://github.com/larikhide/stepik-go/blob/main/3-9-parallelism/3-9-5-parallelism.go) Synchronizing Goroutines with sync.WaitGroup. Call the main function inside a Goroutine 10 times and wait for the completion of all Goroutines' execution.  
 
-[3.9.8]() Load Balancing via time.Timer. In the example, the timer is used to signal the need to finish the work, while the ticker issues a "ticket" for job execution.  
+[3.9.8]() Load Balancing via time.Ticker. In the example, the timer is used to signal the need to finish the work, while the ticker issues a "ticket" for job execution.  
 
 
