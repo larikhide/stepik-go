@@ -25,3 +25,14 @@ func work(wg *sync.WaitGroup) {
 	fmt.Println("Mouse: i did")
 
 }
+
+// // решение для сайта
+// wg := new(sync.WaitGroup)
+// for i:=0 ; i <10 ; i ++ {
+//     wg.Add(1)
+//     go func(){
+//         work()
+//         defer wg.Done()
+//     }()
+// }
+// wg.Wait()
